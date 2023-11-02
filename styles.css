@@ -118,6 +118,7 @@ main{
         border-top-right-radius: 0px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        box-shadow: 0;
     }
     .scores tr{
         width: 90%;
