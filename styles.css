@@ -1,0 +1,190 @@
+/*General Classes*/
+
+body{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+main{
+    background-color: red;
+}
+
+/*
+    ============
+        LAYOUT
+    ============
+*/
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+}
+.center
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.results{
+    width: 50%;
+    border:2px solid blue;
+    text-align: center;
+    border-radius: 30px;
+    background-image: radial-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+}
+.circle{
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+.results_summary
+{
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+    /*  SCORES   */
+.scores {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+}
+.scores tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.7em;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.scores tr th{
+    
+    flex: 1; 
+    display: flex; 
+    align-items: center
+}
+.scores svg{
+    margin-right: 1em;
+}
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);  
+    color:hsla(0, 100%, 67%);
+}
+.memory
+{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal
+{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 1000px) {
+    .container{
+        height: 80%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .results, .results_summary
+    {
+        width: 100%;
+    }
+    .results_summary{
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .scores tr{
+        width: 90%;
+    }
+}
+
+.submit{
+    width: 80%;
+    padding: 15px;
+    background-color:  hsla(256, 72%, 46%, 1);
+    margin-bottom: 2em;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.submit:hover{
+    border: 20px solid white;  
+}
+.submit:active{
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+
+/*
+    +++++++++++++++++++
+        TYPOGRAPHY
+    ==================
+*/
+.results h3{
+    font-weight: 300;
+}
+.score{
+    font-size: 5rem;
+    margin: 0px;
+    padding: 0px;
+}
+.circle p{
+    margin-top: 0;
+    color: hsl(241, 100%, 89%);
+}
+.performance {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.comment {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    color: hsl(241, 100%, 89%);
+}
+.results_summary h3 {
+    text-align: left;
+    /* margin-bottom: 2em;
+    margin-left: 1em; */
+    margin: 1em 0 1em 1em;
+}
+.scores td {
+    color: black;
+}
+.scores span {
+    font-weight: 700;
+}
+
+@media (min-width: 1000px) {
+    .results_summary h3 {
+        text-align: left;
+        /* margin-bottom: 2em;
+        margin-left: 1em; */
+        margin-bottom: 0;
+
+}
