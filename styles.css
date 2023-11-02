@@ -17,7 +17,7 @@ main{
 {
     display: flex;
     justify-content: space-between;
-    height: 70%;
+    height: 60%;
 }
 .center
 {
@@ -43,6 +43,7 @@ main{
     flex-direction: column;
     justify-content: center;
     background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin-bottom: 1em;
 }
 .results_summary
 {
@@ -124,7 +125,7 @@ main{
 
 .submit{
     width: 80%;
-    padding: 15px;
+    padding: 10px;
     background-color:  hsla(256, 72%, 46%, 1);
     margin-bottom: 2em;
     border-radius: 20px;
