@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Desmends27/results-summary-component-main
+- Live Site URL: https://desmends27.github.io/results-summary-component-main/
 
 ## My process
 
@@ -88,6 +88,4 @@ Project can be improved upon by using javascript to make the site more dynamic.
 
 
 ## Author
-
-- Website - [Mends Opoku Desmond](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Desmends27)
