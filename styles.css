@@ -109,11 +109,12 @@ main{
         flex-direction: column;
         text-align: center;
     }
-    .results, .results_summary
+    .results
     {
         width: 100%;
     }
     .results_summary{
+        width: 100%;
         border-bottom-right-radius: 0px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 20px;
